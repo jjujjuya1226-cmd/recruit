@@ -52,7 +52,7 @@ def section(title):
 
 left = []
 left += section('한 줄 소개')
-left += [P('전시·MICE 현장에서 참가자·참가사·운영 스태프의 흐름을 읽고, 콘텐츠와 디지털 도구로 더 나은 경험을 설계합니다. 기획부터 현장 실행까지 직접 연결합니다.')]
+left += [P('국내 전시·MICE 현장에서 전시 기획, 참가사 유치, 현장 운영을 맡아온 전시·행사 프로젝트 코디네이터입니다.')]
 left += section('경력')
 for job in experience:
     period = f"{job['start_date']} — {('현재' if job['end_date'] == 'present' else job['end_date'])}"
