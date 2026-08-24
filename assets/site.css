@@ -6,3 +6,17 @@
 .nav{background:#fffaf7e8}
 .hero:after{background:linear-gradient(90deg,#fffaf7f5 0%,#fffaf7e8 42%,#fffaf778 100%)}
 .work-section{background:#f7f0f7}
+body{background:#fff4f6}
+.nav{background:#fff0f5e8;border-bottom-color:#ecd9e5}
+.hero{background:linear-gradient(135deg,#fff0f4 0%,#f4efff 54%,#eef9f5 100%)}
+.story{background:#fffafd}
+.experience{background:#f3effd}
+.work-section{background:linear-gradient(135deg,#f8eff8,#f0f7ff)}
+.method{background:#fff6df}
+.project-card{background:#fffafd}
+.project-card.peach-card{background:#fff0ee}
+.project-card.lavender-card{background:#f1ecff}
+.project-card.sage-card{background:#edf9f1}
+.story-card.peach{background:#ffe7e4}
+.story-card.lavender{background:#eee7ff}
+.story-card.sage{background:#e5f5e8}
