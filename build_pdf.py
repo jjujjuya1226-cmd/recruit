@@ -70,7 +70,7 @@ for index, project in enumerate(projects_ssot):
     body = '<br/>'.join(project['highlights'])
     right += [P(project['name'], 'H3'), P(body)]
     if index == 0:
-        right += [P('원본 이력서 자기보고 수치: 운영 2명→1명 · 참여율 130% 향상', 'Small')]
+        right += [P('원본 이력서 자기보고 수치 · 검증 대기: 운영 2명→1명 · 참여율 130% 향상', 'Small')]
 right += section('학력·도구')
 right += [P(f"{education['institution']} · {education['area']} · {education['degree']}"), P('PowerPoint · Excel · Word · 한컴오피스 · Claude · Codex · ChatGPT · Gemini · SNS 활용')]
 right += section('포트폴리오')
