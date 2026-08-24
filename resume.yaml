@@ -1,0 +1,70 @@
+cv:
+  name: 류연주
+  headline: 전시·행사기획자 | 고객경험 | DX·AI
+  location: 서울
+  email: 5395640@naver.com
+  sections:
+    summary:
+      - '현장 고객 경험을 이해하고 DX·AI로 전시·행사 운영과 콘텐츠 경험을 개선하는 행사기획자입니다. 전시·박람회·국제행사의 기획부터 현장 운영까지 연결합니다.'
+    skills:
+      - label: 핵심 역량
+        details: 행사기획, 전시기획, 박람회 운영, 국제행사 운영, 참가사 유치, 현장 운영, 고객 경험, 콘텐츠 기획, SNS 마케팅, DX, AI 활용, AIX, 바이브 코딩, 업무 자동화, 모바일 웹
+    experience:
+      - company: (주)세계전람
+        position: 전시1부 · 주임/팀원
+        start_date: 2025-04
+        end_date: present
+        highlights:
+          - 서울국제유아교육전·키즈페어, 인천 베이비&키즈페어 등 전시 기획 및 현장 운영
+          - 특별관 기획, 참가사 유치, 현장 운영 관리
+          - 3040 부모 관람객의 관심을 반영한 콘텐츠와 이벤트 기획
+      - company: (주)텍스코
+        position: MICE1팀 · 대리/팀원
+        start_date: 2023-01
+        end_date: 2024-06
+        highlights:
+          - WBC 2024 등 국제학술대회 전시·참가자 운영
+          - 참가업체·부스·현장 운영 및 공식 프로그램 지원
+    projects:
+      - name: 모바일 스마트 럭키드로우
+        summary: 기획·개발·배포
+        highlights:
+          - 수동 추첨을 모바일 웹 기반 실시간 랜덤 추첨 시스템으로 전환
+          - AI·바이브 코딩으로 관리자 설정, 경품 재고·확률 가중치 흐름 구현
+          - 운영 인력 2명에서 1명으로 개선, 행사 참여율 130% 향상
+      - name: 뉴스레터 디자인
+        summary: 콘텐츠 기획
+        highlights:
+          - 행사 소개, 카운트다운, 참가업체·프로그램 안내를 단계별로 구성
+          - 긴 세로형 콘텐츠의 정보 구조와 사전 참여 흐름 설계
+      - name: 카드뉴스 디자인
+        summary: SNS 콘텐츠 운영
+        highlights:
+          - 관람객·참가업체·운영스탭별 행사 안내·홍보 콘텐츠 제작
+          - 개최 안내, 부대행사, 참가업체, SNS 이벤트, 운영스탭 모집 콘텐츠 운영
+    education:
+      - institution: 계명대학교
+        area: 전시·행사
+        degree: 4년제 졸업
+design:
+  theme: classic
+  colors:
+    name: rgb(23,32,43)
+    headline: rgb(226,85,121)
+    section_titles: rgb(23,32,43)
+    links: rgb(226,85,121)
+  typography:
+    font_size:
+      body: 10pt
+      name: 28pt
+      headline: 11pt
+      section_titles: 1.3em
+settings:
+  current_date: 2026-08-24
+  render_command:
+    output_folder: rendercv_output
+    dont_generate_markdown: false
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
