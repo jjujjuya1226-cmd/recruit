@@ -1,11 +1,11 @@
 cv:
   name: 류연주
-  headline: 전시·행사 프로젝트 기획자 | 현장운영 | 고객경험 | DX·AI
+  headline: 전시·행사 프로젝트 기획자 | Exhibition & Event Project Coordinator | 현장운영 | 고객경험 | DX·AI
   location: 서울
   email: 5395640@naver.com
   sections:
     summary:
-      - '약 4년간 20여 개 전시·행사를 기획·운영하며 참가자·참가사·운영스탭의 요구를 조율해 왔습니다. 전시 프로젝트를 현장에서 끝까지 실행하고 콘텐츠와 DX·AI 도구로 운영 과정을 개선하는 전시·행사 프로젝트 기획자입니다.'
+      - '전시기획부터 현장 운영, 콘텐츠 설계와 디지털 도구 개선까지 직접 실행하는 전시·행사 프로젝트 코디네이터입니다.'
     skills:
       - label: 핵심 역량
         details: 행사기획, 전시기획, 박람회 운영, 국제행사 운영, 참가사 유치, 현장 운영, 고객 경험, 콘텐츠 기획, SNS 마케팅, DX, AI 활용, AIX, 바이브 코딩, 업무 자동화, 모바일 웹
@@ -68,4 +68,5 @@ settings:
     dont_generate_typst: false
     dont_generate_pdf: false
     dont_generate_png: true
+
 
