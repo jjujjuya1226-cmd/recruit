@@ -20,3 +20,7 @@ body{background:#fff4f6}
 .story-card.peach{background:#ffe7e4}
 .story-card.lavender{background:#eee7ff}
 .story-card.sage{background:#e5f5e8}
+.hero h1,.section-intro h2{color:#806493}
+.hero h1 em,.section-intro h2 em{color:#d58c9d}
+.eyebrow,.card-kicker,.timeline span,.card-actions{color:#9b78ad}
+.hero-note{color:#756284}
