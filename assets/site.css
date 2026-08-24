@@ -24,3 +24,5 @@ body{background:#fff4f6}
 .hero h1 em,.section-intro h2 em{color:#d58c9d}
 .eyebrow,.card-kicker,.timeline span,.card-actions{color:#9b78ad}
 .hero-note{color:#756284}
+.hero-bg-video{opacity:.4}
+.hero:after{background:linear-gradient(90deg,#fffaf780 0%,#fffaf74d 48%,#fffaf71a 100%)}
