@@ -4,6 +4,8 @@
 /* Pastel palette reinforcement */
 :root{--paper:#fffaf7;--line:#eadfea;--peach:#f7c9c2;--lav:#ddd2f4;--sage:#d8e8d1;--blue:#d3e8f5;--yellow:#f8e8b8;--accent:#806493;--accent2:#e8a6ad}
 .nav{background:#fffaf7e8}
+.newsletter-preview{grid-template-columns:repeat(2,minmax(0,1fr));}
+.newsletter-preview img{display:block;width:50%;object-fit:contain;object-position:center;background:#fff;}
 .hero:after{background:linear-gradient(90deg,#fffaf7f5 0%,#fffaf7e8 42%,#fffaf778 100%)}
 .work-section{background:#f7f0f7}
 body{background:#fff4f6}
