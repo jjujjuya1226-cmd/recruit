@@ -52,6 +52,8 @@ body{background:#fff;color:#111}
 .profile-photo-wrap{flex:0 0 auto;text-align:center}
 .strengths{margin:30px 0 34px}.strength-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.strength-grid article{padding:16px;border:1px solid #e5e5e5;border-radius:12px;background:#fff}.strength-grid b{font-size:13px;color:#ff2f78}.strength-grid p{margin:8px 0 0;color:#333;font-size:13px;line-height:1.6}@media(max-width:800px){.strength-grid{grid-template-columns:1fr}}
 .timeline ul{margin:8px 0 0;padding-left:18px}.timeline li{color:#333;font-size:13px;line-height:1.6}.core-competencies{margin-top:30px}.skill-list{display:flex;flex-wrap:wrap;gap:8px}.skill-list span{padding:6px 10px;border:1px solid #e5e5e5;border-radius:999px;background:#fff;color:#111;font-size:12px}
+@media(min-width:1100px){.cards{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.project-card{min-height:500px;padding:18px}.card-media,.card-preview-row{width:calc(100% + 36px);height:260px;margin:-18px -18px 18px}.project-card h3{font-size:25px}}
+@media(min-width:801px) and (max-width:1099px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .experience{padding-top:48px}
 .card-preview-row{height:360px}
 .card-preview-row img{object-fit:cover}
