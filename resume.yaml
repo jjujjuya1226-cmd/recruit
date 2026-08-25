@@ -25,6 +25,20 @@ cv:
         highlights:
           - WBC 2024 등 국제학술대회 전시·참가자 운영
           - 참가업체·부스·현장 운영 및 공식 프로그램 지원
+      - company: (주)텍스코커뮤니케이션즈
+        position: 행사기획 · 주임/팀원
+        start_date: 2022-09
+        end_date: 2023-01
+        highlights:
+          - 행사 기획과 운영 지원
+          - 참가자·참가업체 커뮤니케이션
+      - company: (재)경주화백컨벤션센터(HICO)
+        position: MICE사업팀 · 사원/팀원
+        start_date: 2021-05
+        end_date: 2022-01
+        highlights:
+          - 국제문화화산업전·한옥문화박람회 전시 지원
+          - 홍보물·뉴스레터·카드뉴스 제작 및 현장 운영
     projects:
       - name: 모바일 스마트 럭키드로우
         summary: 기획·개발·배포
@@ -44,8 +58,15 @@ cv:
           - 개최 안내, 부대행사, 참가업체, SNS 이벤트, 운영스탭 모집 콘텐츠 운영
     education:
       - institution: 계명대학교
-        area: 전시·행사
+        area: 경영학 · 관광경영학 복수전공
         degree: 4년제 졸업
+    certifications:
+      - 컨벤션기획사 2급 · 필기 합격(2025.03)
+      - 컴퓨터활용능력 2급 · 필기 합격(2025.03)
+      - 2종 보통 운전면허 · 최종 합격(2025.03)
+    training:
+      - 대구컨벤션뷰로 BE Planner 양성 과정
+      - 한국MICE협회 어서와, MICE는 처음이지? 수료
 design:
   theme: classic
   colors:
