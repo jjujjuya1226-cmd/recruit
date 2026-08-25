@@ -50,6 +50,7 @@ body{background:#fff;color:#111}
 .profile-role{color:#ff2f78}
 .profile-contact{margin:12px 0 0;color:#111;font-size:14px;line-height:1.7}.profile-contact strong{font-weight:800}
 .profile-photo-wrap{flex:0 0 auto;text-align:center}
+.strengths{margin:30px 0 34px}.strength-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.strength-grid article{padding:16px;border:1px solid #e5e5e5;border-radius:12px;background:#fff}.strength-grid b{font-size:13px;color:#ff2f78}.strength-grid p{margin:8px 0 0;color:#333;font-size:13px;line-height:1.6}@media(max-width:800px){.strength-grid{grid-template-columns:1fr}}
 .experience{padding-top:48px}
 .card-preview-row{height:360px}
 .card-preview-row img{object-fit:cover}
