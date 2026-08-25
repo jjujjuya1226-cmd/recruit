@@ -73,4 +73,5 @@ body{background:#fff;color:#111}
 @media(min-width:801px){.experience{grid-template-columns:minmax(300px,.62fr) minmax(0,1.38fr);gap:56px}.timeline{padding-left:34px;margin-left:14px}.timeline>div{padding-bottom:28px;margin-bottom:28px}.timeline h3{font-size:27px}.credentials,.core-competencies{align-self:start}}
 .strengths{margin-top:42px}.strengths .eyebrow{font-size:14px;color:#ff2f78;margin-bottom:14px}.strength-grid{gap:16px}.strength-grid article{padding:22px;border:2px solid #ff2f78;border-radius:16px;box-shadow:0 10px 24px #ff2f7812}.strength-grid b{font-size:15px}.strength-grid p{font-size:14px;line-height:1.7}
 @media(min-width:801px){.experience{grid-template-columns:minmax(250px,.5fr) minmax(0,1.5fr);gap:48px}.timeline{margin-left:30px;padding-left:38px}.timeline h3{font-size:28px}.timeline li{font-size:14px}}
+@media(min-width:1100px){.experience{grid-template-columns:minmax(360px,.45fr) minmax(0,1.55fr);gap:42px}.experience>.timeline{margin-left:70px;width:calc(100% + 70px);padding-left:42px}.experience>.timeline h3{font-size:29px}.experience>.timeline li{font-size:14px;line-height:1.8}}
 .work-section{padding-top:48px}
