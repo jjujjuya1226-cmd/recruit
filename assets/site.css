@@ -49,6 +49,7 @@ body{background:#fff;color:#111}
 .card-result,.project{background:#fff;border-color:#e5e5e5}
 .profile-role{color:#ff2f78}
 .profile-contact{margin:12px 0 0;color:#111;font-size:14px;line-height:1.7}.profile-contact strong{font-weight:800}
+.profile-photo-wrap{flex:0 0 auto;text-align:center}
 .experience{padding-top:48px}
 .card-preview-row{height:360px}
 .card-preview-row img{object-fit:cover}
