@@ -49,3 +49,7 @@ body{background:#fff;color:#111}
 .card-result,.project{background:#fff;border-color:#e5e5e5}
 .profile-role{color:#ff2f78}
 .experience{padding-top:48px}
+.card-preview-row{height:360px}
+.card-preview-row img{object-fit:cover}
+@media(max-width:800px){.card-preview-row{height:330px}}
+@media(max-width:430px){.card-preview-row{height:300px}}
