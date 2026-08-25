@@ -28,3 +28,4 @@ body{background:#fff4f6}
 .hero-note{color:#756284}
 .hero-bg-video{opacity:.4}
 .hero:after{background:linear-gradient(90deg,#fffaf780 0%,#fffaf74d 48%,#fffaf71a 100%)}
+.profile-intro{display:flex;align-items:center;gap:24px;margin-bottom:42px}.profile-photo{width:132px;height:164px;object-fit:cover;border-radius:18px;box-shadow:0 12px 28px #80649326;border:6px solid #fff}.profile-role{font-size:24px;font-weight:800;color:var(--accent);margin:8px 0}.profile-desc{max-width:420px;color:var(--muted);margin:0}@media(max-width:800px){.profile-intro{align-items:flex-start;gap:16px}.profile-photo{width:96px;height:120px}.profile-role{font-size:20px}}@media(max-width:430px){.profile-intro{display:block}.profile-photo{width:112px;height:140px;margin-bottom:16px}}
