@@ -124,7 +124,7 @@ body{background:#fff;color:#111}
   .experience{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;column-gap:28px!important;row-gap:28px!important;width:100%;max-width:none}
   .experience>.section-intro{grid-column:1!important;grid-row:1!important;width:100%;max-width:none}
   .experience>.timeline{grid-column:2!important;grid-row:1!important;width:100%!important;max-width:none;margin:0!important;padding-left:28px!important;min-width:0}
-  .experience>.strengths{grid-column:2 / 4!important;grid-row:2!important;width:100%!important;max-width:none;margin:0!important;min-width:0}
+  .experience>.strengths{grid-column:1 / 4!important;grid-row:2!important;width:100%!important;max-width:none;margin:0!important;min-width:0}
   .experience>.strengths .strength-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:18px!important}
   .experience>.career-details{grid-column:1!important;grid-row:3!important}
   .experience>.credentials{grid-column:2!important;grid-row:3!important}
