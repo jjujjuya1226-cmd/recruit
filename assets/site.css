@@ -118,3 +118,12 @@ body{background:#fff;color:#111}
 @media(max-width:800px){.career-scroll{max-height:520px}}
 @media(min-width:1100px){.experience{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}.experience>.section-intro{grid-column:1;grid-row:1}.experience>.timeline{grid-column:2;grid-row:1;margin-left:0;width:100%;padding-left:38px}.experience>.strengths{grid-column:3;grid-row:1;margin-top:0}.experience>.strengths .strength-grid{grid-template-columns:1fr}}
 @media(min-width:1100px){.experience{padding-left:clamp(24px,3vw,48px);padding-right:clamp(24px,3vw,48px)}}
+
+/* Desktop: profile, career timeline and core competencies occupy the full three-column row. */
+@media(min-width:1100px){
+  .experience{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;column-gap:28px!important;row-gap:28px!important;width:100%;max-width:none}
+  .experience>.section-intro{grid-column:1!important;grid-row:1!important;width:100%;max-width:none}
+  .experience>.timeline{grid-column:2!important;grid-row:1!important;width:100%!important;max-width:none;margin:0!important;padding-left:28px!important;min-width:0}
+  .experience>.strengths{grid-column:3!important;grid-row:1!important;width:100%!important;max-width:none;margin:0!important;min-width:0}
+  .experience>.strengths .strength-grid{grid-template-columns:1fr!important}
+}
