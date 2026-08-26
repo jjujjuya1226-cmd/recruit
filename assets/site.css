@@ -92,6 +92,9 @@ body{background:#fff;color:#111}
 .experience{padding-bottom:28px}.work-section{padding-top:24px}
 .work-section{padding-top:48px}
 
+/* Keep the live lucky-draw thumbnail centered within its card. */
+.project-card.live-demo .card-iframe{display:block;width:100%;max-width:100%;margin-left:auto;margin-right:auto;object-position:center;border:0}
+
 /* Detailed career record: a dedicated, scrollable third column on desktop */
 .career-details{padding:22px;border:1px solid #e5e5e5;border-top:3px solid #ff2f78;border-radius:18px;background:#fff;min-width:0}
 .career-details .eyebrow{margin:0 0 12px;color:#ff2f78}
