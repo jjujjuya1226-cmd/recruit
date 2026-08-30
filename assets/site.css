@@ -103,6 +103,7 @@ a[href="portfolio/special-hall-plans.html"]{display:none!important}
 .detail .hero-detail{padding-top:12px!important}
 .detail .hero-detail h1{margin-top:0!important}
 .career-scroll b,.career-scroll span,.career-scroll p{font-size:14px!important;line-height:1.6!important}
+@media(min-width:1100px){.experience>.strengths .strength-grid article{padding-top:0!important}}
 @media(min-width:1100px){.experience>.timeline>div:first-child h3{margin-top:-10px!important}}
 @media(min-width:1100px){.experience>.timeline>div:first-child h3{margin-top:6px!important}}
 @media(min-width:1100px){
