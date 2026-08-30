@@ -21,5 +21,6 @@
 <section class="panel"><p class="label">공식 부스 배치도</p><img class="layout-shot" src="../assets/illustrator-zone/floorplan.webp" alt="제56회 서울국제유아교육전 일러스트 작가 특별관 공식 부스 배치도"></section>
 </main>
 <footer><a href="../">← 전체 포트폴리오</a><span>일러스트 작가 특별관 기획·유치·운영 · 현장 사진 22장</span></footer>
+<script>document.querySelectorAll(".gallery figcaption").forEach(function(c){c.textContent="일러스트 작가 특별관 현장 기록"});</script>
 <script>document.querySelectorAll(".gallery").forEach(function(g){var down=false,startX,startScroll;g.style.cursor="grab";g.addEventListener("pointerdown",function(e){down=true;startX=e.clientX;startScroll=g.scrollLeft;g.setPointerCapture(e.pointerId);g.style.cursor="grabbing"});g.addEventListener("pointermove",function(e){if(!down)return;e.preventDefault();g.scrollLeft=startScroll-(e.clientX-startX)});["pointerup","pointercancel","pointerleave"].forEach(function(t){g.addEventListener(t,function(){down=false;g.style.cursor="grab"})})});</script></body>
 </html>
