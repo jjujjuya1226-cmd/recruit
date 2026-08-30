@@ -95,6 +95,9 @@ body{background:#fff;color:#111}
 /* Keep the live lucky-draw thumbnail centered within its card. */
 .project-card.live-demo .card-iframe{display:block;width:100%;max-width:100%;margin-left:auto;margin-right:auto;object-position:center;border:0}
 
+/* 기획서 작성 프로젝트는 포트폴리오 목록에서 제외합니다. */
+a[href="portfolio/special-hall-plans.html"]{display:none!important}
+
 /* Detailed career record: a dedicated, scrollable third column on desktop */
 .career-details{padding:22px;border:1px solid #e5e5e5;border-top:3px solid #ff2f78;border-radius:18px;background:#fff;min-width:0}
 .career-details .eyebrow{margin:0 0 12px;color:#ff2f78}
