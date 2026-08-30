@@ -125,6 +125,8 @@ a[href="portfolio/special-hall-plans.html"]{display:none!important}
 @media(min-width:1100px){
   .experience>.section-intro,.experience>.timeline,.experience>.strengths{align-self:start!important;margin-top:0!important;padding-top:0!important;transform:none!important}
   .experience>.section-intro .profile-intro,.experience>.timeline>div:first-child,.experience>.strengths>.eyebrow{margin-top:0!important;transform:none!important}
+  .experience>.section-intro .profile-intro .eyebrow{margin-top:0!important}
+  .experience>.timeline>div:first-child>span{display:block;margin-top:0!important;line-height:1.2}
 }
 
 /* Detailed career record: a dedicated, scrollable third column on desktop */
