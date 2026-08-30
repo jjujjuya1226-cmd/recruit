@@ -98,6 +98,11 @@ body{background:#fff;color:#111}
 /* 기획서 작성 프로젝트는 포트폴리오 목록에서 제외합니다. */
 a[href="portfolio/special-hall-plans.html"]{display:none!important}
 
+/* Align contact text with the profile photo's left edge. */
+.profile-contact{width:170px;margin-left:auto;margin-right:auto}
+@media(max-width:800px){.profile-contact{width:140px}}
+@media(max-width:430px){.profile-contact{width:130px}}
+
 /* Detailed career record: a dedicated, scrollable third column on desktop */
 .career-details{padding:22px;border:1px solid #e5e5e5;border-top:3px solid #ff2f78;border-radius:18px;background:#fff;min-width:0}
 .career-details .eyebrow{margin:0 0 12px;color:#ff2f78}
