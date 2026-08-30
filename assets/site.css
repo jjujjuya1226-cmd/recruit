@@ -97,6 +97,7 @@ body{background:#fff;color:#111}
 
 /* 기획서 작성 프로젝트는 포트폴리오 목록에서 제외합니다. */
 a[href="portfolio/special-hall-plans.html"]{display:none!important}
+.detail .crumb{display:none!important}
 .nav-pdf{padding:7px 12px;border:1px solid #ff2f78;border-radius:999px;color:#ff2f78!important;font-weight:800}
 
 /* Align contact text with the profile photo's left edge. */
