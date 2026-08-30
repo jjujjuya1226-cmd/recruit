@@ -103,6 +103,13 @@ a[href="portfolio/special-hall-plans.html"]{display:none!important}
 @media(max-width:800px){.profile-contact{width:140px}}
 @media(max-width:430px){.profile-contact{width:130px}}
 
+/* Balance desktop timeline height with the vertical competencies table. */
+@media(min-width:1100px){
+  .experience>.timeline h3{font-size:21px!important;line-height:1.3;margin:6px 0!important}
+  .experience>.timeline li{font-size:12px!important;line-height:1.5!important}
+  .experience>.timeline>div{padding-bottom:16px!important;margin-bottom:16px!important}
+}
+
 /* Detailed career record: a dedicated, scrollable third column on desktop */
 .career-details{padding:22px;border:1px solid #e5e5e5;border-top:3px solid #ff2f78;border-radius:18px;background:#fff;min-width:0}
 .career-details .eyebrow{margin:0 0 12px;color:#ff2f78}
