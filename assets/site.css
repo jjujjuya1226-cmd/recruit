@@ -111,6 +111,13 @@ a[href="portfolio/special-hall-plans.html"]{display:none!important}
   .experience>.timeline>div{padding-bottom:16px!important;margin-bottom:16px!important}
 }
 
+/* Keep the three lower information panels equal in height; long career records scroll inside. */
+@media(min-width:1100px){
+  .experience>.career-details,.experience>.credentials,.experience>.extra-experience{height:560px!important;min-height:560px!important;max-height:560px!important;overflow:hidden}
+  .experience>.career-details .career-scroll{max-height:480px;overflow-y:auto}
+  .experience>.credentials,.experience>.extra-experience{overflow-y:auto}
+}
+
 /* Match the competencies heading scale to the WHO I AM eyebrow. */
 .strengths>.eyebrow{font-size:12px!important;line-height:1.2;letter-spacing:.14em;margin:0 0 14px!important}
 
