@@ -133,4 +133,5 @@ body{background:#fff;color:#111}
   .experience>.career-details{grid-column:1!important;grid-row:3!important}
   .experience>.credentials{grid-column:2!important;grid-row:3!important}
   .experience>.extra-experience{grid-column:3!important;grid-row:3!important}
+  .experience>.career-details,.experience>.credentials,.experience>.extra-experience{align-self:start!important;height:auto!important;min-height:0!important}
 }
