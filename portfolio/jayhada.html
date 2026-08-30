@@ -23,3 +23,4 @@
 <footer><a href="../">← 전체 포트폴리오</a><span>키즈 패션&amp;라이프스타일 제이하다 특별관 기획·운영</span></footer>
 <script>document.querySelectorAll(".gallery").forEach(function(g){var down=false,startX,startScroll;g.style.cursor="grab";g.addEventListener("pointerdown",function(e){down=true;startX=e.clientX;startScroll=g.scrollLeft;g.setPointerCapture(e.pointerId);g.style.cursor="grabbing"});g.addEventListener("pointermove",function(e){if(!down)return;e.preventDefault();g.scrollLeft=startScroll-(e.clientX-startX)});["pointerup","pointercancel","pointerleave"].forEach(function(t){g.addEventListener(t,function(){down=false;g.style.cursor="grab"})})});</script></body>
 </html>
+<script>document.querySelectorAll(".gallery figcaption").forEach(function(c){c.textContent="제이하다 특별관 현장 사진"});</script>
