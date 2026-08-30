@@ -130,6 +130,7 @@ a[href="portfolio/special-hall-plans.html"]{display:none!important}
   .experience>.section-intro .profile-intro .eyebrow,
   .experience>.timeline>div:first-child>span,
   .experience>.strengths>.eyebrow{font-size:12px!important;line-height:1.2!important;height:14.4px;display:block}
+  .experience>.section-intro .profile-role{margin-top:6px!important}
 }
 
 /* Detailed career record: a dedicated, scrollable third column on desktop */
